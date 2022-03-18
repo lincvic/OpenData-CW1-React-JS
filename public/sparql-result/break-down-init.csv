@@ -1,0 +1,3 @@
+industry,CoronaApply,CoronaRec,CoronaIntend,BusinessApply,BusinessRec,BusinessIntend,DeferApply,DeferRec,DeferIntend,HMRCApply,HMRCRec,HMRCIntend,GovApply,GovRec,GovIntend,AccApply,AccRec,AccIntend
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Total_LessThan250_AllIndustries,0.687,0.221,0.367,0.272,0.186,0.089,0.56,0.407,0.202,0.224,0.168,0.094,0.135,0.085,0.046,0.112,0.023,0.085
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Total_GreaterThan250_AllIndustries,0.647,0.224,0.37,0.279,0.2,0.094,0.571,0.461,0.169,0.222,0.168,0.078,0.073123,0.046,0.027,0.079,0.011,0.072

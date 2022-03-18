@@ -1,0 +1,13 @@
+industry,CoronaApply,CoronaRec,CoronaIntend,BusinessApply,BusinessRec,BusinessIntend,DeferApply,DeferRec,DeferIntend,HMRCApply,HMRCRec,HMRCIntend,GovApply,GovRec,GovIntend,AccApply,AccRec,AccIntend
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles,0.726,0.239,0.321,0.446,0.334,0.093,0.601,0.469,0.158,0.25,0.183,0.076,0.133,0.091,0.042,0.09,0.015,0.083
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#AccommodationAndFoodServiceActivities,0.871,0.251,0.404,0.782,0.633,0.18,0.806,0.596,0.235,0.422,0.306,0.137,0.249,0.178,0.061,0.206,0.035,0.122
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#AdministrativeAndSupportServiceActivities,0.757,0.28,0.401,0.201,0.12,0.089,0.637,0.469,0.227,0.205,0.147,0.102,0.218,0.144,0.063,0.123,0.017,0.09
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#ArtsEntertainmentAndRecreation,0.763,0.219,0.41,0.572,0.45,0.122,0.612,0.435,0.212,0.331,0.255,0.104,0.18,0.108,0.058,0.183,0.043,0.108
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Construction,0.809,0.291,0.429,0.135,0.057,0.032,0.599,0.443,0.174,0.287,0.234,0.096,0.06,0.021,0.05,0.096,0.018,0.11
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Education,0.405,0.098,0.459,0.085,0.038,0.098,0.263,0.184,0.174,0.07,0.057,0.022,0.022,*,*,0.028,*,0.066
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#HumanHealthAndSocialWorkActivities,0.345,0.085,0.31,0.134,0.092,0.042,0.162,0.155,0.099,0.063,0.042,0.056,0.106,0.07,0.035,0.028,*,0.014
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#InformationAndCommunication,0.401,0.154,0.26,0.082,0.031,0.07,0.474,0.397,0.163,0.137,0.106,0.067,0.036,0.017,0.029,0.038,0.01,0.05
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Manufacturing,0.635,0.199,0.383,0.14,0.079,0.081,0.443,0.33,0.167,0.193,0.147,0.092,0.048,0.026,0.028,0.086,0.013,0.066
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#ProfessionalScientificAndTechnicalActivities,0.622,0.216,0.35,0.126,0.078,0.073,0.662,0.518,0.228,0.186,0.146,0.083,0.049,0.022,0.023,0.081,0.023,0.074
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#TransportationAndStorage,0.766,0.287,0.355,0.241,0.145,0.096,0.553,0.44,0.199,0.248,0.188,0.078,0.064,0.025,0.021,0.092,0.025,0.074
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#WaterSupplySewerageWasteManagementAndRemediationActivities,0.686,0.286,0.386,0.157,0.043,0.071,0.571,0.371,0.229,0.214,0.157,0.143,0.057,0.014,0.029,0.1,0.043,0.071

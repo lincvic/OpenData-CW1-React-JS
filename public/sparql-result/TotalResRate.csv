@@ -1,0 +1,13 @@
+industry,totalResponseRate,continueRate,ceasedRate,tempRate
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles,0.343,0.752,*,0.243
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#AccommodationAndFoodServiceActivities,0.316,0.182,0.012,0.806
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#AdministrativeAndSupportServiceActivities,0.345,0.915,*,0.081
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#ArtsEntertainmentAndRecreation,0.387,0.205,*,0.795
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Construction,0.275,0.732,*,0.261
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Education,0.418,0.868,*,0.126
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#HumanHealthAndSocialWorkActivities,0.49,0.938,0.014,0.049
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#InformationAndCommunication,0.344,0.95,*,0.0451232
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#Manufacturing,0.348,0.79,*,0.206
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#ProfessionalScientificAndTechnicalActivities,0.362,0.967,*,0.03
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#TransportationAndStorage,0.327,0.915,*,0.085
+http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#WaterSupplySewerageWasteManagementAndRemediationActivities,0.348,0.9,*,0.1

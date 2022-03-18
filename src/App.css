@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.recharts-cartesian-axis-tick {
+  font-family: Fredoka, sans-serif;
+}
+
+p{
+  font-family: Fredoka;
+  font-size: 55px;
+  text-align: center;
+  color: #03045E;
+}
+.axis-label, .dropdown-label {
+  font-size: 2.5em;
+  fill: #635F5D;
+  color: #635F5D;
+}
+.menus-container {
+  margin-top: 20px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-label {
+  margin-left: 100px;
+  margin-right: 15px;
+}
+.Dropdown-root {
+  font-size: 1.5em;
+  width: 300px;
+  display: inline-block;
+}
+.Dropdown-menu {
+  max-height: 400px;
+}
