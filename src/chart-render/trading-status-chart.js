@@ -2,17 +2,13 @@ import React, {useEffect, useState} from "react"
 import {
     ComposedChart,
     Line,
-    Area,
     Bar,
     XAxis,
     YAxis,
     CartesianGrid,
     Tooltip,
     Legend,
-    Scatter,
-    ResponsiveContainer, ZAxis,
     ReferenceLine,
-    Brush
 } from "recharts";
 import * as d3 from "d3";
 import './chart.css'
@@ -33,7 +29,7 @@ export const VerticalTradingStatus = () => {
             "industry": item["industry"].replace("http://www.semanticweb.org/yijiang/ontologies/2022/2/OpenData-CW-1-Yijiang#", "").match(/[A-Z][a-z]+/g)[0],
             "totalResponseRate":(parseFloat(item["totalResponseRate"]) * 100).toFixed(2),
             "continueRate":(parseFloat(item["continueRate"]) * 100).toFixed(2),
-            "ceasedRate": ((item["ceasedRate"] == '*') ? (1-item["totalResponseRate"]) : (+(item["ceasedRate"]) * 100)).toFixed(2),
+            "ceasedRate": ((item["ceasedRate"] === '*') ? (1-item["totalResponseRate"]) : (+(item["ceasedRate"]) * 100)).toFixed(2),
             "tempRate": (parseFloat(item["tempRate"]) * 100).toFixed(2)
         }
 

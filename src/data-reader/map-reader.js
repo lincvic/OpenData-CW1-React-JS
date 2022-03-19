@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import {json, csv} from 'd3';
-import {feature, mesh} from 'topojson';
+import {feature} from 'topojson';
 
 const engURL = './geo-json/Eng.json';
 const scotlandURL = './geo-json/Scotland.json'

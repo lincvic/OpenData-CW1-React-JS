@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react';
-import { Radar, RadarChart, PolarGrid, Legend, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+import React from 'react';
+import { Radar, RadarChart, PolarGrid, Legend, PolarAngleAxis, PolarRadiusAxis} from 'recharts';
 const radarData = [
     {
         subject: "Response Rate",

@@ -7,7 +7,7 @@ import {UKMapD3} from "./chart-render/ukmapd3";
 import {useMapData} from "./data-reader/map-reader";
 import './App.css';
 import ReactDropdown from "react-dropdown";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import 'react-dropdown/style.css';
 
 const attributes = [
@@ -19,14 +19,6 @@ const attributes = [
     {value: 'HMRC', label: 'HMRC Time To Pay scheme'},
     {value: 'Acc', label: 'Accredited finance agreements'}
 ]
-
-const getLabel = value => {
-    for (let i = 0; i < attributes.length; i++) {
-        if (attributes[i].value === value) {
-            return attributes[i].label;
-        }
-    }
-}
 
 
 function App() {

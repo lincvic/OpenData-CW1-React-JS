@@ -6,8 +6,7 @@ import {
     ZAxis,
     CartesianGrid,
     Tooltip,
-    Legend, ReferenceLine,
-    ReferenceArea
+    Legend
 } from "recharts"
 import React, {useEffect, useState} from "react";
 import * as d3 from "d3";
