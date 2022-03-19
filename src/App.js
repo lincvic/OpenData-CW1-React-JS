@@ -3,9 +3,11 @@ import {VerticalTradingStatus} from "./chart-render/trading-status-chart";
 import {LineChart0250} from "./chart-render/line-chart-0-250";
 import {ScatterCircleChart} from "./chart-render/scatter-chart";
 import {ScatterCircleChartBreakDown} from "./chart-render/scatter-chart-break-down";
+import {UKMapD3} from "./chart-render/ukmapd3";
+import {useMapData} from "./data-reader/map-reader";
 import './App.css';
 import ReactDropdown from "react-dropdown";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import 'react-dropdown/style.css';
 
 const attributes = [
@@ -29,7 +31,14 @@ const getLabel = value => {
 
 function App() {
     const [chartAttribute, setChartAttribute] = useState("Corona")
-    const chartLabel = getLabel(chartAttribute)
+    const mapData = useMapData()
+    if(mapData === null){
+        return (
+            <>
+                <p>Loading..</p>
+            </>
+        )
+    }
     return (
         <>
             <p><b>COVID UK Business Impact</b></p>
@@ -46,6 +55,11 @@ function App() {
                 />
             </div>
             <ScatterCircleChartBreakDown answerName={chartAttribute}/>
+            <div>
+            <svg width={640} height={480}>
+                <UKMapD3 data={mapData} />
+            </svg>
+            </div>
         </>
     )
 }

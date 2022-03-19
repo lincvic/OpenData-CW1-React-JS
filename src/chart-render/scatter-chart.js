@@ -25,6 +25,9 @@ export const ScatterCircleChart = ({answerName = "Corona"}) => {
             setData(data)
         })
     }, [])
+    useEffect(()=>{
+        console.log("Use Effect UK Map")
+    },[])
     if (!data) {
         return (<pre>Loading...</pre>)
     }
