@@ -34,6 +34,7 @@ const thresholdColorMapping = (num) => {
         case (num > 0.9 && num < 1):
             color = "#7400B8"
             break
+        default:color = "#A9E7F0"
     }
     return color
 }
