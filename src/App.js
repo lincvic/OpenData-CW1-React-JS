@@ -34,7 +34,11 @@ function App() {
     return (
         <>
             <div className="container">
-                <p><b>COVID UK Business Impact</b></p>
+                <p ><b>COVID UK Business Impact</b></p>
+                <div className="stuName">
+                    <h5>Yijiang Wang</h5>
+                    <h5>Powered by React + D3.js</h5>
+                </div>
             </div>
             <div className="container">
                 <VerticalTradingStatus/>
