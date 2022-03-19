@@ -12,7 +12,7 @@ import {
 import React, {useEffect, useState} from "react";
 import * as d3 from "d3";
 
-const width = window.innerWidth/1.05
+const width = window.innerWidth/2
 const height = 480
 const colorPalette = ["#161418", "#e83131", "#0a0ab2", "#ea9494",
     "#21fa00", "#48BFE3", "#a69bda", "#fa07f4",

@@ -62,7 +62,8 @@ export const ScatterCircleChartBreakDown = ({answerName = "Corona"}) => {
 
     return (
         <div>
-            <h1>The company's approach to government policy Break Down By Company Workforce size</h1>
+            <h1>Break Down</h1>
+            <h1>By Company Workforce size</h1>
             <ScatterChart
                 width={width}
                 height={height}

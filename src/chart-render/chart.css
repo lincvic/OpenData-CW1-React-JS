@@ -8,3 +8,29 @@ text{
     font-family: 'Fredoka', sans-serif;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+.dropdown-label{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+}
+
+.menus-container{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 10px;
+}
+
+.ukmap{
+    margin-left: 30px;
+}
+
+.colorBox{
+    margin-top: 150px;
+}
+
+.svgColorLabel{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
+}
