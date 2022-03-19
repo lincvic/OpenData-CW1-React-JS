@@ -41,7 +41,7 @@ export const VerticalTradingStatus = () => {
         <div>
             <h1>Trading Status break down by industry category</h1>
         <ComposedChart
-            width={window.innerWidth/2}
+            width={window.innerWidth/1.3}
             height={480}
             data={newData}
             margin={{
