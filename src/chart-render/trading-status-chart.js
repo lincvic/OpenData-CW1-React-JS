@@ -65,9 +65,9 @@ export const VerticalTradingStatus = () => {
             <Legend/>
 
             <Bar dataKey="totalResponseRate" barSize={20} fill="#007EFF" />
-            <Line dataKey="continueRate" fill="#8884d8" stroke="#FF5D73" strokeWidth={5} type="monotone" activeDot={{ r: 8 }}/>
+            <Line dataKey="continueRate" fill="#8884d8" stroke="#0A4249" strokeWidth={5} type="monotone" activeDot={{ r: 8 }}/>
             <Line dataKey="ceasedRate" fill="#8884d8" stroke="#911300" strokeWidth={5} type="monotone" activeDot={{ r: 8 }}/>
-            <Line dataKey="tempRate" fill="#8884d8" stroke="#F9F871" strokeWidth={5} type="monotone" activeDot={{ r: 8 }}/>
+            <Line dataKey="tempRate" fill="#8884d8" stroke="#00AF5F" strokeWidth={5} type="monotone" activeDot={{ r: 8 }}/>
             <ReferenceLine y={27.5} label="Min Response Rate" stroke="#007EFF" strokeDasharray="3 3" />
             <ReferenceLine y={96.7} label="Max Continue Rate" stroke="#007EFF" strokeDasharray="3 3" />
         </ComposedChart>
