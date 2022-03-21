@@ -63,7 +63,7 @@ function App() {
             <div className="container">
                 <ScatterCircleChartBreakDown answerName={chartAttribute}/>
                 <div className="ukmap">
-                    <h1>Break Down By Country</h1>
+                    <h1>Apply Rate Break Down By Country</h1>
                     <svg width={640} height={480}>
                         <UKMapD3 country={mapData.ukCountry} mapCSV={mapData.mapCSVData} selectedName={chartAttribute}/>
                     </svg>
